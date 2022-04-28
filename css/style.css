@@ -1,0 +1,128 @@
+@font-face{
+	font-family: PlayfairDisplay-Regular;
+	src: url(../fonts/playfair-display/PlayfairDisplay-Regular.otf);
+}
+{
+	font-family: PlayfairDisplay-Regular;
+	font-weight: 400;
+}
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: PlayfairDisplay;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common end*/
+/*Header Start*/
+header{
+	padding: 20px 0;
+}
+.container{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 90%;
+	/*border: 1px solid red;*/
+}
+.logo{
+	margin-top: 11px;
+	width: 9%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+	float: right;
+}
+.menu ul{
+	
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0 60px;
+	padding: 4px 1px 3px;
+	display: inline-block;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+	transition: .3s;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/*Header end*/
+/*Banner Start*/
+.banner{}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/*Banner end*/
+/*Perfect Start*/
+.perfect{
+	padding-top: 85px;
+	padding-bottom: 85px;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+	border: 1px solid red;
+}
+.p_content{}
+.p_light{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.p_h1{
+	margin-top: 25px;
+	margin-bottom: 30px;
+	font-size: 30px;
+    font-weight: 400;
+}
+.p_text{
+	margin: 0;
+	line-height: 22px;
+}
+.mb{
+	margin-bottom: 45px;
+}
+/*Perfect end*/
+/*Vlog Start*/
+.vlog{}
+.vlogs{}
+/*single start*/
+.single{
+	width: 40%;
+
+	/*min-height: 150px;
+	overflow: hidden;*/
+
+	border: 1px solid red;
+	float: left;
+	margin-bottom: 10px;
+}
+.single_img{
+	margin-bottom: 25px;
+}
+.single_img img{
+	width: 100%;
+}
+/*single end*/
+/*Vlog end*/
