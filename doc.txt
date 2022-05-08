@@ -1,0 +1,32 @@
+font: 
+[PlayfairDisplay]
+
+Inconsolata Regular
+
+font-family: 'Inconsolata', monospace;
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+
+	
+	[Ubuntu] Light
+
+font-family: 'Ubuntu', sans-serif;
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+color: 
+black #000000
+ash #626262
+
+section: 7
+
+Vlog img size: 420*280
+Asset:
+logo
+img
+icon
+text
